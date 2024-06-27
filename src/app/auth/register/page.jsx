@@ -164,7 +164,9 @@ export default function Page() {
                     </ol>
                 </div>
                 <div className="w-64">
-                    <Button onPress={async () => { console.log(loginInfo); setModalOpen(true); }} color="success" size="lg" variant="ghost" className="mt-12 mb-12 p-8" fullWidth={true} children={<h3 className="text-2xl font-bold">Crear cuenta</h3>} />
+                    <Button onPress={async () => { console.log(loginInfo); setModalOpen(true); }} color="success" size="lg" variant="ghost" className="mt-12 mb-12 p-8" fullWidth={true}>
+                    <h3 className="text-2xl font-bold">Crear cuenta</h3>
+                    </Button>
                 </div>
             </div>
             <SModal 

@@ -80,7 +80,9 @@ export default function Page(params) {
             <div className='w-full grid grid-cols-1 md:grid-cols-2'>
                 <p className=" w-full text-xl font-bold">Tabla de usuarios</p>
                 <div className="w-full ml-96">
-                    <Button onPress={async () => { console.log('xd'); onOpen() }} color="success" size="sm" variant="ghost" children={<h3 className="text-sm font-bold">Nuevo usuario</h3>} />
+                    <Button onPress={async () => { console.log('xd'); onOpen() }} color="success" size="sm" variant="ghost">
+                    <h3 className="text-sm font-bold">Nuevo usuario</h3>
+                    </Button>
                 </div>
             </div>
 

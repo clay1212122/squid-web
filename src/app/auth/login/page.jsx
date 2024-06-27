@@ -62,7 +62,9 @@ export default function Page() {
                 />
 
                 <div className="w-64">
-                    <Button onPress={async () => {await loginProcess();}} color="success" size="lg" variant="ghost" className="mt-12 p-8" fullWidth={true} children={<h3 className="text-2xl font-bold">Iniciar sesión</h3>} />
+                    <Button onPress={async () => {await loginProcess();}} color="success" size="lg" variant="ghost" className="mt-12 p-8" fullWidth={true}>
+                    <h3 className="text-2xl font-bold">Iniciar sesión</h3>
+                    </Button>
                 </div>
                 <Link className="mt-12" isBlock showAnchorIcon href="#" color="success">
                     ¿Olvidaste tu contraseña?
